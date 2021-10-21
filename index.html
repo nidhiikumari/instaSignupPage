@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signup</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <button id="btn" onclick="onclick=document.getElementById('id260').style.display = 'block';"
+        style='width:auto;'>SignUp</button>
+
+    <h3
+        style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight: bolder; font-size: 30px; color: brown;">
+        Welcome to Instagram!</h3>
+
+
+    <div id="id260" class="container">
+        <form class="input" action="/action_page.php" method="post">
+            <div class="lorem">
+                <h1>Sign Up</h1>
+
+            </div>
+            <div class="imgcontainer">
+                <img id="img" src="usericon.png" alt="signup" class="photo">
+            </div>
+            <div class="fcbk">
+                <button id="lgf" onclick="location.href='http://www.Facebook.com'" type="button">
+                    Login with Facebook</button>
+            </div>
+
+            <hr>
+            <p>Please fill in this form to create an account.</p>
+
+
+            <div class="box" style="width: 100%;">
+                <input type="text" placeholder="Email" required> <br>
+                <input type="text" placeholder="Full Name" required><br>
+                <input type="text" placeholder="Username" required><br>
+                <input type="text" placeholder="Password" required><br>
+                <input type="text" placeholder="Confirm Password" required><br>
+                <button id="cancel" type="submit"
+                    onclick="document.getElementById('id260').style.display ='none'">Cancel</button>
+                <button id="sign" type="submit">Sign up</button><br>
+            </div>
+            <div id="para">
+                <p>By signing up, you agree to our <b>Terms, Data</b><br> Policy and Cookies Policy</p>
+            </div>
+        </form>
+
+
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

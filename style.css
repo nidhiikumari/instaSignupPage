@@ -1,0 +1,117 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+/* img. */
+input[type = text] {
+    width: 60%;
+    padding: 10px 17px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+
+
+}
+#lgf {
+    width: auto;
+    margin: 0 5px;
+}
+#sign {
+    width: auto;
+    margin:0 5px;
+}
+.box {
+    margin: 0 5px;
+}
+button {
+    padding: 10px 17px ;
+    width: 100%;
+    /* marg; */
+    border: none;
+    background-color: #8000ff;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity:0.6
+}
+
+.container {
+    text-align: center;
+    margin: 24px 0 28px 0;
+    
+}
+img.photo {
+    width: 40%;
+    height: 40%;
+    padding: 0px;
+    border-radius: 49%;
+}
+
+.container {
+    display: none;
+    position: sticky;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    justify-content: center;
+    height: 100;
+    overflow: auto;
+    background-color: rgba(173, 168, 168, 0.5);
+    transition-delay: 2sec;
+    
+    padding-top:60px ;
+
+
+
+
+}
+
+.input {
+    /* background-color: #fefefe; */
+    /* background-color: #ff99cc ; */
+    background: linear-gradient(to top left, #33ccff 0%, #ff99cc 100%);;
+    margin: 5% auto 15% auto;
+    border: 1px solid #888;
+    width: 60%;
+   /* height: 38%; */
+
+
+}
+#cancel, #sign {
+    width: 30%;
+}
+
+#cancel {
+    background-color: brown;
+}
+
+@-webkit-keyframes animatezoom {
+    from {
+        -webkit-transform: scale(0);
+    }
+    to {
+        -webkit-transform: scale(3);
+    }
+
+}
+
+@keyframes animatezoom {
+    from {-webkit-transform: scale(0);}
+    to{-webkit-transform: scale(3);}
+}
+
+@media screen and (max-width:300px) {
+    #cancel, #sign {
+        width: 100%;
+    }
+    .input {
+        width: 80%;
+    }
+    
+   
+
+}
